@@ -1,0 +1,170 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width:320px) and (max-width: 480px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .left {
+        width: 100%;
+        margin-bottom: 3rem;
+        padding-top: 20px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .card__body {
+        padding: 1rem;
+    }
+
+    .card__text h3 {
+        font-weight: 500;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .introduce {
+        padding-left: unset;
+    }
+
+    .introduce__title .introduce__title--bold {
+        font-size: 28px;
+    }
+
+    .introduce__title .introduce__title--bold-little {
+        font-size: 25px;
+    }
+
+    .introduce__list {
+        display: block;
+    }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .left {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .card__body {
+        padding: 1rem;
+    }
+
+    .card__text h3 {
+        font-weight: 500;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .introduce {
+        padding-left: unset;
+    }
+
+    .introduce__card .introduce__body {
+        padding: unset;
+    }
+
+    .introduce__title .introduce__title--bold {
+        font-size: 32px;
+    }
+
+    .introduce__title .introduce__title--bold-little {
+        font-size: 28px;
+    }
+
+    .introduce__list {
+        flex-wrap: wrap;
+    }
+
+    .introduce__list>div {
+        width: 50%;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads 
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        margin-left: unset;
+        margin-right: unset;
+    }
+
+    .left {
+        width: 70%;
+        margin-bottom: 3rem;
+    }
+
+    .card__body {
+        padding: 1rem;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .introduce__title .introduce__title--bold {
+        font-size: 34px;
+    }
+
+    .introduce__title .introduce__title--bold-little {
+        font-size: 28px;
+    }
+
+    .introduce {
+        padding: unset;
+    }
+
+    .introduce__list {
+        flex-wrap: wrap;
+    }
+
+    .introduce__list>div {
+        width: 50%;
+    }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .card__body {
+        padding: 12px;
+    }
+
+    .introduce {
+        padding-left: unset;
+    }
+
+    .introduce__list {
+        flex-wrap: wrap;
+    }
+
+    .introduce__list>div {
+        width: 50%;
+    }
+
+    .introduce__title .introduce__title--bold {
+        font-size: 37px;
+    }
+
+    .introduce__title .introduce__title--bold-little {
+        font-size: 30px;
+    }
+}
